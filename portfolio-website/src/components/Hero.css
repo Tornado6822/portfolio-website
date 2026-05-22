@@ -1,5 +1,9 @@
-.profile-img {
-  width: 200px;
-  height: 200px;
+.hero {
+  min-height: calc(100vh - var(--navbar-height, 70px));
+}
+
+.profile-pic {
+  width: clamp(240px, 18vw, 300px);
+  height: clamp(240px, 18vw, 300px);
   object-fit: cover;
 }

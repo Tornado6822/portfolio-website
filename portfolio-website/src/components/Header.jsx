@@ -1,10 +1,31 @@
 function Header() {
   return (
-    <div className="container-fluid bg-primary py-4 row">
-      <div className="col-6">Home</div>
-      <div className="col-3">Case Studies</div>
-      <div className="col-3">Recent Work</div>
-    </div>
+    <header
+      className="sticky-top bg-light d-flex align-items-center"
+      style={{ height: "var(--navbar-height)" }}
+    >
+      <div className="container">
+        <nav className="navbar justify-content-center">
+          <ul className="navbar-nav flex-row gap-4">
+            <li className="nav-item">
+              <a className="nav-link" href="#">
+                Link 1
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#">
+                Link 2
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#">
+                Link 3
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
   );
 }
 
