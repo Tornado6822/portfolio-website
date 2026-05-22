@@ -48,4 +48,9 @@ h2 {
 
 p {
   margin: 0;
+  font-size: x-large;
+}
+
+li {
+  font-size: large;
 }

@@ -3,7 +3,7 @@
 }
 
 .profile-pic {
-  width: clamp(240px, 18vw, 300px);
-  height: clamp(240px, 18vw, 300px);
+  width: 450px;
+  height: 600px;
   object-fit: cover;
 }

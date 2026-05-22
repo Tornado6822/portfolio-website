@@ -5,21 +5,22 @@ function Header() {
       style={{ height: "var(--navbar-height)" }}
     >
       <div className="container">
-        <nav className="navbar justify-content-center">
-          <ul className="navbar-nav flex-row gap-4">
+        <nav className="navbar">
+          <p>Patrick Morel</p>
+          <ul className="navbar-nav flex-row gap-5 ms-auto">
             <li className="nav-item">
               <a className="nav-link" href="#">
-                Link 1
+                About Me
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#">
-                Link 2
+                Work
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#">
-                Link 3
+                Case Studies
               </a>
             </li>
           </ul>

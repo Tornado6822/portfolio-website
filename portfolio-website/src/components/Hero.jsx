@@ -7,8 +7,8 @@ function Hero() {
         <div className="row align-items-center">
           {/* left text */}
           <div className="col-md-6 text-center text-md-start">
-            <h1 className="fw-bold display-2">I'm Patrick Morel.</h1>
-            <p className="lead mt-3">
+            <h1 className="fw-bold display-1">I'm Patrick Morel.</h1>
+            <p className="lead mt-3 display-6">
               A software engineering student passionate about building clean and
               modern web applications.
             </p>
@@ -19,7 +19,7 @@ function Hero() {
             <img
               src="./LinkedIn Headshotp.2.jpg"
               alt="Profile"
-              className="profile-pic rounded-circle img-fluid"
+              className="profile-pic img-thumbnail img-fluid"
             />
           </div>
         </div>
