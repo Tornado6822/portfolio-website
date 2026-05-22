@@ -7,7 +7,7 @@ function Hero() {
         <div className="row align-items-center">
           {/* left text */}
           <div className="col-md-6 text-center text-md-start">
-            <h1 className="fw-bold display-4">I'm Patrick Morel.</h1>
+            <h1 className="fw-bold display-2">I'm Patrick Morel.</h1>
             <p className="lead mt-3">
               A software engineering student passionate about building clean and
               modern web applications.
