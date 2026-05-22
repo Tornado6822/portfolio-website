@@ -17,7 +17,7 @@ function Hero() {
           {/* right image */}
           <div className="col-md-6 d-flex justify-content-center mt-4 mt-md-0">
             <img
-              src="./public/LinkedIn Headshotp.2.jpg"
+              src="./LinkedIn Headshotp.2.jpg"
               alt="Profile"
               className="profile-pic rounded-circle img-fluid"
             />

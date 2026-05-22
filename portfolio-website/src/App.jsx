@@ -18,7 +18,6 @@ function App() {
         <h3>test</h3>
         <h4>test</h4>
       </div>
-      <Patrick />
     </>
   );
 }
