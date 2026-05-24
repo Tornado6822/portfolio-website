@@ -2,14 +2,12 @@ import "./Hero.css";
 
 function Hero() {
   return (
-    <div className="hero d-flex align-items-center bg-secondary">
+    <div className="hero d-flex align-items-center">
       <div className="container">
         <div className="row align-items-center">
           {/* left text */}
           <div className="col-md-6 text-center text-md-start">
-            <h1 className="fw-bold display-4 display-md-1">
-              I'm Patrick Morel.
-            </h1>
+            <h1 className="fw-bold display-4">I'm Patrick Morel.</h1>
             <p className="lead mt-3 display-6">
               A software engineering student passionate about building clean and
               modern web applications.

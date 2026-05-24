@@ -6,7 +6,7 @@ function CaseStudies() {
       <div className="container">
         <h1 className="pt-5">Case Studies</h1>
         <div className="row align-items-center mt-3">
-          <div className="col-6 col-md-3 d-flex justify-content-center card">
+          <div className="col-6 col-md-3 d-flex justify-content-center">
             <div className="card">
               <div className="img-wrapper">
                 <img
@@ -47,7 +47,7 @@ function CaseStudies() {
               </div>
               <div className="card-body">
                 <h5 className="card-title">E-Commerce Site</h5>
-                <p>Placeholder</p>
+                <p>UX Flow</p>
               </div>
             </div>
           </div>
@@ -61,8 +61,8 @@ function CaseStudies() {
                 />
               </div>
               <div className="card-body">
-                <h5 className="card-title">Analytics</h5>
-                <p>Placeholder</p>
+                <h5 className="card-title">Analytics Site</h5>
+                <p>Data Visualization</p>
               </div>
             </div>
           </div>
