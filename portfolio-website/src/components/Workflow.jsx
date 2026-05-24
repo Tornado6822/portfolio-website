@@ -1,6 +1,12 @@
 function Workflow() {
   return (
-    <div className="py-4">
+    <section
+      id="work"
+      className="py-4"
+      style={{
+        backgroundColor: "var(--bg-card)",
+      }}
+    >
       <div className="container mt-4">
         <h1>How I work</h1>
 
@@ -46,7 +52,7 @@ function Workflow() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

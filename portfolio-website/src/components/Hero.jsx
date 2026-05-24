@@ -2,7 +2,7 @@ import "./Hero.css";
 
 function Hero() {
   return (
-    <div className="hero d-flex align-items-center">
+    <div id="about" className="hero d-flex align-items-center">
       <div className="container">
         <div className="row align-items-center">
           {/* left text */}

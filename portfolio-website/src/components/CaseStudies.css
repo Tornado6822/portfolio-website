@@ -9,3 +9,17 @@
   height: 100%;
   object-fit: cover;
 }
+
+.card {
+  background-color: var(--bg-card);
+  border-width: 2px;
+  border-color: var(--border);
+}
+
+.card-title {
+  color: var(--text-main);
+}
+
+.card-description {
+  font-size: large;
+}

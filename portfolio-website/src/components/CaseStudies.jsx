@@ -2,7 +2,7 @@ import "./CaseStudies.css";
 
 function CaseStudies() {
   return (
-    <section className="d-flex justify-content-center">
+    <section id="case-studies" className="d-flex justify-content-center py-5">
       <div className="container">
         <h1 className="pt-5">Case Studies</h1>
         <div className="row align-items-center mt-3">
@@ -17,7 +17,7 @@ function CaseStudies() {
               </div>
               <div className="card-body">
                 <h5 className="card-title">Bike Repair</h5>
-                <p>Service Site Design</p>
+                <p className="card-description">Service Site Design</p>
               </div>
             </div>
           </div>
@@ -32,7 +32,7 @@ function CaseStudies() {
               </div>
               <div className="card-body">
                 <h5 className="card-title">Memory Game</h5>
-                <p>UI Interaction</p>
+                <p className="card-description">UI Interaction</p>
               </div>
             </div>
           </div>
@@ -47,7 +47,7 @@ function CaseStudies() {
               </div>
               <div className="card-body">
                 <h5 className="card-title">E-Commerce Site</h5>
-                <p>UX Flow</p>
+                <p className="card-description">UX Flow</p>
               </div>
             </div>
           </div>
@@ -62,7 +62,7 @@ function CaseStudies() {
               </div>
               <div className="card-body">
                 <h5 className="card-title">Analytics Site</h5>
-                <p>Data Visualization</p>
+                <p className="card-description">Data Visualization</p>
               </div>
             </div>
           </div>
