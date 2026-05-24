@@ -3,7 +3,8 @@
 }
 
 .profile-pic {
-  width: 450px;
-  height: 600px;
+  width: 100%;
+  max-width: 450px;
+  height: auto;
   object-fit: cover;
 }

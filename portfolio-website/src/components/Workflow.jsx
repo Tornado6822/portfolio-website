@@ -28,15 +28,20 @@ function Workflow() {
             <h4 className="mt-3">Learning Tools:</h4>
             <ul>
               <li>
-                <a href=""></a>
+                <a href="https://www.nngroup.com/">
+                  Nielsen Norman Group (NN/G)
+                </a>
               </li>
-              <li>Scale</li>
-              <li>Visual Hierarchy</li>
-              <li>Balance</li>
-              <li>Contrast</li>
-              <li>Gestalt Principles</li>
-              <li>Colour</li>
-              <li>Typography</li>
+              <li>
+                <a href="https://catalogue.uottawa.ca/en/undergrad/basc-software-engineering/#programrequirementstext">
+                  UOttawa - Analysis and Design of User Interfaces
+                </a>
+              </li>
+              <li>
+                <a href="https://www.figma.com/community/portfolio-templates?resource_type=files&editor_type=figma">
+                  Figma
+                </a>
+              </li>
             </ul>
           </div>
         </div>
