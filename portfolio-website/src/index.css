@@ -31,11 +31,15 @@
 }
 
 body {
-  margin-left: 200px;
-  margin-right: 200px;
   background-color: var(--bg-main);
   color: var(--text-main);
   font-family: "Inter", sans-serif;
+}
+
+.main-container {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 0 24px; /* breathing room on small screens */
 }
 
 #root {

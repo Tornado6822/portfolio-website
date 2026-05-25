@@ -28,13 +28,13 @@ function Home() {
   }
 
   return (
-    <>
+    <div className="main-container">
       <Header />
       <Hero />
       <Workflow />
       <CaseStudies setShowPlaceholder={setShowPlaceholder} />
       <Footer />
-    </>
+    </div>
   );
 }
 
