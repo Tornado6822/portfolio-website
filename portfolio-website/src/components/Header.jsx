@@ -1,3 +1,5 @@
+import "./Header.css";
+
 function Header() {
   return (
     <header className="sticky-top d-flex align-items-center custom-navbar">

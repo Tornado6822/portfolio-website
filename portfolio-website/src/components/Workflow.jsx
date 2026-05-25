@@ -10,7 +10,7 @@ function Workflow() {
       <div className="container mt-4">
         <h1>How I work</h1>
 
-        <p>
+        <p className="py-4">
           I am currently learning UI and UX design as part of a design course.
           Through this course, I am developing skills in creating user-friendly
           and visually effective interfaces while learning the core principles
