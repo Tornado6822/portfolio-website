@@ -1,13 +1,13 @@
 import "./CaseStudies.css";
 
-function CaseStudies() {
+function CaseStudies({ setShowPlaceholder }) {
   return (
     <section id="case-studies" className="d-flex justify-content-center py-5">
       <div className="container">
         <h1 className="pt-5">Case Studies</h1>
         <div className="row align-items-center mt-3">
           <div className="col-6 col-md-3 d-flex justify-content-center">
-            <div className="card">
+            <div className="card" onClick={() => setShowPlaceholder(true)}>
               <div className="img-wrapper">
                 <img
                   src="./bikeRepairService.webp"
@@ -22,7 +22,7 @@ function CaseStudies() {
             </div>
           </div>
           <div className="col-6 col-md-3 d-flex justify-content-center">
-            <div className="card">
+            <div className="card" onClick={() => setShowPlaceholder(true)}>
               <div className="img-wrapper card">
                 <img
                   src="./memoryGameThumbnail.webp"
@@ -37,7 +37,7 @@ function CaseStudies() {
             </div>
           </div>
           <div className="col-6 col-md-3 d-flex justify-content-center">
-            <div className="card">
+            <div className="card" onClick={() => setShowPlaceholder(true)}>
               <div className="img-wrapper">
                 <img
                   src="eCommerceThumbnail.webp"
@@ -52,7 +52,7 @@ function CaseStudies() {
             </div>
           </div>
           <div className="col-6 col-md-3 d-flex justify-content-center">
-            <div className="card">
+            <div className="card" onClick={() => setShowPlaceholder(true)}>
               <div className="img-wrapper">
                 <img
                   src="visualizationThumbnail.webp"

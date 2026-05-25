@@ -6,19 +6,12 @@ import Hero from "./components/Hero.jsx";
 import Workflow from "./components/Workflow.jsx";
 import CaseStudies from "./components/CaseStudies.jsx";
 import Footer from "./components/Footer.jsx";
+import Home from "./pages/Home.jsx";
 
 function App() {
   const [count, setCount] = useState(0);
 
-  return (
-    <>
-      <Header />
-      <Hero />
-      <Workflow />
-      <CaseStudies />
-      <Footer />
-    </>
-  );
+  return <Home />;
 }
 
 export default App;
