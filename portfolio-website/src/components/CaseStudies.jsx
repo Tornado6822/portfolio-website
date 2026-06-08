@@ -17,7 +17,7 @@ function CaseStudies({ setShowPlaceholder }) {
                   />
                 </div>
                 <div className="card-body">
-                  <h5 className="card-title">Bike Repair</h5>
+                  <h5 className="card-title">Thrive Physio</h5>
                   <p className="card-description">Service Site Design</p>
                 </div>
               </div>
