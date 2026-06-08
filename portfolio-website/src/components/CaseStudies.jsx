@@ -7,7 +7,7 @@ function CaseStudies({ setShowPlaceholder }) {
         <h1 className="pt-5">Case Studies</h1>
         <div className="row align-items-center mt-3">
           <div className="col-6 col-md-3 d-flex justify-content-center">
-            <a href="http://localhost:5173/">
+            <a href="https://thrive-physio.netlify.app/">
               <div className="card">
                 <div className="img-wrapper">
                   <img
