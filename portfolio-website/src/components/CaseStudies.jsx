@@ -7,19 +7,21 @@ function CaseStudies({ setShowPlaceholder }) {
         <h1 className="pt-5">Case Studies</h1>
         <div className="row align-items-center mt-3">
           <div className="col-6 col-md-3 d-flex justify-content-center">
-            <div className="card" onClick={() => setShowPlaceholder(true)}>
-              <div className="img-wrapper">
-                <img
-                  src="./bikeRepairService.webp"
-                  alt="Bike Repair Service"
-                  className=""
-                />
+            <a href="http://localhost:5173/">
+              <div className="card">
+                <div className="img-wrapper">
+                  <img
+                    src="./card1.webp"
+                    alt="Physiotherapy Service"
+                    className=""
+                  />
+                </div>
+                <div className="card-body">
+                  <h5 className="card-title">Bike Repair</h5>
+                  <p className="card-description">Service Site Design</p>
+                </div>
               </div>
-              <div className="card-body">
-                <h5 className="card-title">Bike Repair</h5>
-                <p className="card-description">Service Site Design</p>
-              </div>
-            </div>
+            </a>
           </div>
           <div className="col-6 col-md-3 d-flex justify-content-center">
             <div className="card" onClick={() => setShowPlaceholder(true)}>
