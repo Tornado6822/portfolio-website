@@ -24,19 +24,21 @@ function CaseStudies({ setShowPlaceholder }) {
             </a>
           </div>
           <div className="col-6 col-md-3 d-flex justify-content-center">
-            <div className="card" onClick={() => setShowPlaceholder(true)}>
-              <div className="img-wrapper card">
-                <img
-                  src="./memoryGameThumbnail.webp"
-                  alt="Memory game"
-                  className="card-img-top"
-                />
+            <a href="https://memorymatrixpm.netlify.app/">
+              <div className="card">
+                <div className="img-wrapper card">
+                  <img
+                    src="./memoryMatrix.png"
+                    alt="Memory game"
+                    className="card-img-top"
+                  />
+                </div>
+                <div className="card-body">
+                  <h5 className="card-title">Memory Game</h5>
+                  <p className="card-description">UI Interaction</p>
+                </div>
               </div>
-              <div className="card-body">
-                <h5 className="card-title">Memory Game</h5>
-                <p className="card-description">UI Interaction</p>
-              </div>
-            </div>
+            </a>
           </div>
           <div className="col-6 col-md-3 d-flex justify-content-center">
             <div className="card" onClick={() => setShowPlaceholder(true)}>
