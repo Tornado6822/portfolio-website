@@ -41,16 +41,17 @@ function CaseStudies({ setShowPlaceholder }) {
             </a>
           </div>
           <div className="col-6 col-md-3 d-flex justify-content-center">
-            <a href="https://a-to-zbooks.netlify.app/"></a>
-            <div className="card">
-              <div className="img-wrapper">
-                <img src="AToZ.png" alt="E-commerce" className="" />
+            <a href="https://a-to-zbooks.netlify.app/">
+              <div className="card">
+                <div className="img-wrapper">
+                  <img src="AToZ.png" alt="E-commerce" className="" />
+                </div>
+                <div className="card-body">
+                  <h5 className="card-title">E-Commerce Site</h5>
+                  <p className="card-description">UX Flow</p>
+                </div>
               </div>
-              <div className="card-body">
-                <h5 className="card-title">E-Commerce Site</h5>
-                <p className="card-description">UX Flow</p>
-              </div>
-            </div>
+            </a>
           </div>
           <div className="col-6 col-md-3 d-flex justify-content-center">
             <div className="card" onClick={() => setShowPlaceholder(true)}>
