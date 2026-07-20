@@ -1,54 +1,111 @@
-function Workflow() {
-  return (
-    <section
-      id="work"
-      className="py-4"
-      style={{
-        backgroundColor: "var(--bg-card)",
-      }}
-    >
-      <div className="container mt-4">
-        <h1>How I work</h1>
+import {
+  FaUserCheck,
+  FaPalette,
+  FaMousePointer,
+  FaChartBar,
+  FaExternalLinkAlt,
+} from "react-icons/fa";
 
-        <p className="py-4">
-          I am currently learning UI and UX design as part of a design course.
-          Through this course, I am developing skills in creating user-friendly
-          and visually effective interfaces while learning the core principles
-          of good design.
-        </p>
-        <div className="row">
-          <div className="col-6">
-            <h4 className="mt-3">
-              So far, I have been learning concepts such as:
-            </h4>
-            <ul>
-              <li>UI vs UX</li>
-              <li>Scale</li>
-              <li>Visual Hierarchy</li>
-              <li>Balance/Contrast</li>
-              <li>Gestalt Principles</li>
-              <li>Colour/Typography</li>
-            </ul>
-          </div>
-          <div className="col-6">
-            <h4 className="mt-3">Learning Tools:</h4>
-            <ul>
-              <li>
-                <a href="https://www.nngroup.com/">
-                  Nielsen Norman Group (NN/G)
-                </a>
-              </li>
-              <li>
-                <a href="https://catalogue.uottawa.ca/en/undergrad/basc-software-engineering/#programrequirementstext">
-                  UOttawa - Analysis and Design of User Interfaces
-                </a>
-              </li>
-              <li>
-                <a href="https://www.figma.com/community/portfolio-templates?resource_type=files&editor_type=figma">
-                  Figma
-                </a>
-              </li>
-            </ul>
+import "./Workflow.css";
+
+function Workflow() {
+  const principles = [
+    {
+      icon: <FaUserCheck />,
+      title: "User-Centered Design",
+      description:
+        "Designing interfaces around user goals, accessibility, and usability.",
+    },
+    {
+      icon: <FaPalette />,
+      title: "Visual Communication",
+      description:
+        "Using colour, typography, layout, and hierarchy to communicate effectively.",
+    },
+    {
+      icon: <FaMousePointer />,
+      title: "Interaction Design",
+      description:
+        "Creating intuitive workflows through feedback, consistency, and familiar patterns.",
+    },
+    {
+      icon: <FaChartBar />,
+      title: "Information Visualization",
+      description:
+        "Presenting complex information through clear and meaningful visualizations.",
+    },
+  ];
+
+  const resources = [
+    {
+      title: "Nielsen Norman Group",
+      description:
+        "UX research, usability guidelines, and interface design principles.",
+      link: "https://www.nngroup.com/",
+    },
+    {
+      title: "uOttawa UI Design Course",
+      description:
+        "Interface analysis, design principles, and human-computer interaction.",
+      link: "https://catalogue.uottawa.ca/en/undergrad/basc-software-engineering/#programrequirementstext",
+    },
+    {
+      title: "Figma",
+      description: "Wireframing, prototyping, and interface design workflows.",
+      link: "https://www.figma.com/community/portfolio-templates",
+    },
+  ];
+
+  return (
+    <section id="work" className="workflow-section">
+      <div className="container">
+        {/* Header */}
+        <div className="workflow-header">
+          <h1>How I work</h1>
+
+          <p>
+            I combine UI/UX principles, visual design, and software engineering
+            practices to create interfaces that are intuitive, accessible, and
+            effective.
+          </p>
+        </div>
+
+        {/* Principles */}
+        <div className="workflow-grid">
+          {principles.map((principle) => (
+            <div className="principle-card" key={principle.title}>
+              <div className="principle-icon">{principle.icon}</div>
+
+              <h3>{principle.title}</h3>
+
+              <p>{principle.description}</p>
+            </div>
+          ))}
+        </div>
+
+        {/* Resources */}
+        <div className="resources-section">
+          <h2>Design resources and tools</h2>
+
+          <div className="resources-grid">
+            {resources.map((resource) => (
+              <a
+                href={resource.link}
+                target="_blank"
+                rel="noreferrer"
+                className="resource-card"
+                key={resource.title}
+              >
+                <div>
+                  <h3>
+                    {resource.title}
+                    <FaExternalLinkAlt className="external-icon" />
+                  </h3>
+
+                  <p>{resource.description}</p>
+                </div>
+              </a>
+            ))}
           </div>
         </div>
       </div>

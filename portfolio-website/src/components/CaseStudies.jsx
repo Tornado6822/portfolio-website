@@ -34,7 +34,7 @@ function CaseStudies({ setShowPlaceholder }) {
                   />
                 </div>
                 <div className="card-body">
-                  <h5 className="card-title">Memory Game</h5>
+                  <h5 className="card-title">Memory Matrix</h5>
                   <p className="card-description">UI Interaction</p>
                 </div>
               </div>
@@ -47,26 +47,24 @@ function CaseStudies({ setShowPlaceholder }) {
                   <img src="AToZ.png" alt="E-commerce" className="" />
                 </div>
                 <div className="card-body">
-                  <h5 className="card-title">E-Commerce Site</h5>
+                  <h5 className="card-title">A-to-Z Books</h5>
                   <p className="card-description">UX Flow</p>
                 </div>
               </div>
             </a>
           </div>
           <div className="col-6 col-md-3 d-flex justify-content-center">
-            <div className="card" onClick={() => setShowPlaceholder(true)}>
-              <div className="img-wrapper">
-                <img
-                  src="visualizationThumbnail.webp"
-                  alt="Analytics"
-                  className=""
-                />
+            <a href="https://sleep-dash.netlify.app/">
+              <div className="card">
+                <div className="img-wrapper">
+                  <img src="sleepDashboard.png" alt="Analytics" className="" />
+                </div>
+                <div className="card-body">
+                  <h5 className="card-title">Sleep</h5>
+                  <p className="card-description">Data Visualization</p>
+                </div>
               </div>
-              <div className="card-body">
-                <h5 className="card-title">Analytics Site</h5>
-                <p className="card-description">Data Visualization</p>
-              </div>
-            </div>
+            </a>
           </div>
         </div>
       </div>

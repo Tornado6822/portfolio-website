@@ -1,6 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap");
+
 :root {
-  --sans: system-ui, "Segoe UI", Roboto, sans-serif;
-  --heading: system-ui, "Segoe UI", Roboto, sans-serif;
+  --sans: "IBM Plex Sans", system-ui, sans-serif;
+  --heading: "IBM Plex Sans", system-ui, sans-serif;
 
   font-family: var(--sans);
   color: var(--text);
@@ -17,23 +19,10 @@
   --navbar-height: 70px;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --text: #9ca3af;
-    --text-h: #f3f4f6;
-    --bg: #16171d;
-    --border: #2e303a;
-
-    --accent: #c084fc;
-    --accent-bg: rgba(192, 132, 252, 0.15);
-    --accent-border: rgba(192, 132, 252, 0.5);
-  }
-}
-
 body {
   background-color: var(--bg-main);
   color: var(--text-main);
-  font-family: "Inter", sans-serif;
+  font-family: var(--sans);
 }
 
 .main-container {
@@ -47,13 +36,16 @@ body {
 }
 
 h1,
-h2 {
+h2,
+h3,
+h4 {
   font-weight: 600;
+  font-family: var(--heading);
 }
 
 p {
   margin: 0;
-  font-size: x-large;
+  font-size: 1-rem;
   color: var(--text-muted);
 }
 
