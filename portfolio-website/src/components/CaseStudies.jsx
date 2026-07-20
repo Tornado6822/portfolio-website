@@ -60,7 +60,7 @@ function CaseStudies({ setShowPlaceholder }) {
                   <img src="sleepDashboard.png" alt="Analytics" className="" />
                 </div>
                 <div className="card-body">
-                  <h5 className="card-title">Sleep</h5>
+                  <h5 className="card-title">Sleep Dashboard</h5>
                   <p className="card-description">Data Visualization</p>
                 </div>
               </div>
